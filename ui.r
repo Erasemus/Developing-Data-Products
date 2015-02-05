@@ -34,6 +34,7 @@ shinyUI(fluidPage(
     
     # Show the result
     mainPanel(
+           helpText("To predict the species of an iris specimen based on the measured parameters, move the sliders then press GO"),
            h4("Species = "),
    uiOutput("Species")
     )
